@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<style>
+			.b
+			{
+				font-size :20px;
+				font-family : arial;
+				display : flex;
+				position : relative;
+				gap : 30px;
+			}
+			.b div
+			{
+				background-image : linear-gradient(pink,orange,yellow);
+			}
+			@media screen and (max-width : 700px)
+			{
+				.b div
+				{
+					background-image :  conic-gradient(red,green,blue);
+					font-size : 35px;
+					color : white;
+					gap : 40px;
+					
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="b">
+			<div>Home</div>
+			<div>About</div>
+			<div>Gallery</div>
+			<div>Contact</div>
+		</div>
+	</body>
+</html>
