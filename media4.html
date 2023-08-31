@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<style>
+			ul
+			{
+				display:none;
+			}
+			marquee
+			{
+				scrollamount: 3;
+				background-color : pink;
+				direction : left;
+			}
+			@media screen and (max-width : 650px)
+			{
+				div ul
+				{
+					display : inline-block;
+							
+				}
+				marquee
+				{
+					display : none;
+				}
+			}
+		</style>
+	<head>
+	<body>
+		<marquee>Web Development, Mirecal, TallyPrime, CorelDRAW</marquee>
+		<div>
+		<ul>
+			<li>Web Development</li>
+			<li>Mirecal</li>
+			<li>TallyPrime</li>
+			<li>CorelDraw</li>
+		</ul>
+		</div>	
+	</body>
+</html>
