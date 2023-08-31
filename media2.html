@@ -1,0 +1,52 @@
+<html>
+	<head>
+	<title>Document</title>
+		<style>
+			body
+			{
+				background-color : aqua;
+				display : flex;
+				justify-content : center;
+				align-items : center;
+			}
+			div
+			{
+				display : flex;
+			}
+			@media screen and (max-width : 1024px)
+			{
+				body
+				{
+					background-color : burlywood;
+				}
+				.b
+				{
+					display : block;
+				}
+			}
+			@media screen and (max-width : 768px)
+			{
+				body
+				{
+					background-color : aquamarine;
+				}
+				.b
+				{
+					display : none;
+				}
+				.bb
+				{
+					display : block;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="b">
+			<h1>BIG DISPLAY</h1>
+		</div>
+		<div class="bb">
+			<h1>LARGE LAPTOP</h1>
+		</div>
+	</body>
+</html>
